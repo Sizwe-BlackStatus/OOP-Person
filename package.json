@@ -1,0 +1,22 @@
+{
+  "name": "oop-person",
+  "version": "1.0.0",
+  "description": "",
+  "main": "OOP_PERSON_TDD.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sizwe-BlackStatus/OOP-Person.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sizwe-BlackStatus/OOP-Person/issues"
+  },
+  "homepage": "https://github.com/Sizwe-BlackStatus/OOP-Person#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
