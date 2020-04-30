@@ -1,17 +1,17 @@
-const {Person} = require ("../src/OOP_Person_TDD.js")
-let person = new Person('Stracci', '55', 'Male', ['being a Mob-boss', ' I am one of the 5-families of New-York'])
+const {Person} = require ("../src/oop_person_tdd.js")
+let person = new Person('Ryan', '30', 'Male', ['being a hardarse', ' agile', 'ssd hard'])
 
 describe("Attributes of Person", function(){
     it("should give a name of Person", function(){
-        expect(person.name).toBe('Stracci')
+        expect(person.name).toBe('Ryan')
     })
     it("should give the age of Person", function(){
-        expect(person.age).toBe('55')
+        expect(person.age).toBe('30')
     })
     it("should give the gender of Person", function(){
         expect(person.gender).toBe('Male')
     })
     it("should provide the interests of Person", function(){
-        expect(person.interests).toContain('being a Mob-boss', 'I am one of the 5-families of New-York')
+        expect(person.interests).toContain('being a hardarse', 'agile', 'ssd hard')
     })
 })

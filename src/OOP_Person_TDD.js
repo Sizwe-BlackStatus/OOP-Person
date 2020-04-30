@@ -6,11 +6,11 @@ class Person{
         this.interests = interests;
     }
     hello(){
-        let greeting = `Hello, my name is ${this.name} and I am a ${this.age} year old ${this.gender}. My interest are ${this.interests[0]}, and ${this.interests[1]}.`
+        let greeting = `Hello, my name is ${this.name} and I am a ${this.age} year old ${this.gender}. My interest are ${this.interests[0]}, ${this.interests[1]} and ${this.interests[2]}.`
         return greeting;
     }
 }
-let person = new Person('Stracci', '55', 'Male', ['being a Mob-boss', 'I am one of the 5-families of New-York'])
+let person = new Person('Ryan', '30', 'Male', ['being a hardarse', 'agile', 'ssd hard'])
 console.log(person.hello())
 module.exports = {
     Person: Person

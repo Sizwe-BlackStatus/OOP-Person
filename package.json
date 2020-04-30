@@ -2,7 +2,7 @@
   "name": "oop-person",
   "version": "1.0.0",
   "description": "",
-  "main": "OOP_PERSON_TDD.js",
+  "main": "oop_person_tdd.js",
   "scripts": {
     "test": "jasmine"
   },
