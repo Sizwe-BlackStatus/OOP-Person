@@ -1,5 +1,5 @@
-const {Person} = require ("../src/oop_person_tdd.js")
-let person = new Person('Ryan', '30', 'Male', ['being a hardarse', ' agile', 'ssd hard'])
+const {Person} = require ("../src/person_tdd.js")
+let person = new Person('Ryan', '30', 'Male', ['being a hardarse', 'agile', 'ssd hard'])
 
 describe("Attributes of Person", function(){
     it("should give a name of Person", function(){
@@ -12,6 +12,6 @@ describe("Attributes of Person", function(){
         expect(person.gender).toBe('Male')
     })
     it("should provide the interests of Person", function(){
-        expect(person.interests).toContain('being a hardarse', 'agile', 'ssd hard')
+        expect(person.interests).toEqual(['being a hardarse', 'agile', 'ssd hard'])
     })
 })

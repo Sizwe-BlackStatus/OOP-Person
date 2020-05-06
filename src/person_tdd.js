@@ -10,8 +10,6 @@ class Person{
         return greeting;
     }
 }
-let person = new Person('Ryan', '30', 'Male', ['being a hardarse', 'agile', 'ssd hard'])
-console.log(person.hello())
 module.exports = {
     Person: Person
 }
