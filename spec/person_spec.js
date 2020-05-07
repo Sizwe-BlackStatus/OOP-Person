@@ -1,4 +1,4 @@
-const {Person} = require ("../src/person_tdd.js")
+const {Person} = require ("../src/person.js")
 let person = new Person('Ryan', '30', 'Male', ['being a hardarse', 'agile', 'ssd hard'])
 
 describe("Attributes of Person", function(){

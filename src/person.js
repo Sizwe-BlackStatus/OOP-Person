@@ -10,6 +10,7 @@ class Person{
         return greeting;
     }
 }
-module.exports = {
-    Person: Person
-}
+let person = new Person('Ryan', '30', 'Male', ['being a hardarse', 'agile', 'ssd hard'])
+let greeting = person.hello()
+console.log(greeting)
+module.exports = {Person}
