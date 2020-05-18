@@ -14,4 +14,7 @@ describe("Attributes of Person", function(){
     it("should provide the interests of Person", function(){
         expect(person.interests).toEqual(['being a hardarse', 'agile', 'ssd hard'])
     })
+    it("should print greeting from person", function(){
+        expect(person.hello()).toBe('Hello, my name is Ryan and I am a 30 year old Male. My interest are being a hardarse, agile and ssd hard.')
+    })
 })
